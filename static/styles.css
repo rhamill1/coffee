@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+header {
+  background-color: #ff5315;
+  height: 4em;
+  text-align: right;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+}
+
+.header-title a {
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+  float: left;
+  margin-left: 2em;
+  margin-top: 15px;
+  letter-spacing: 2.5px;
+}
+
+header li {
+  display: inline-block;
+  padding-top: 20px;
+  padding-right: 2em;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
